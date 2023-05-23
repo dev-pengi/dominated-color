@@ -1,9 +1,13 @@
 {
   "name": "dominated-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the most used color in the image",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-pengi/dominated-color.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
