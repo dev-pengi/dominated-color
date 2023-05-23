@@ -1,10 +1,10 @@
 import Vibrant from 'node-vibrant';
 
 /**
- * Detects the dominant color of an image using the node-vibrant package.
+ * Detects the dominant color of an image using the node vibrant package.
  * @param {string} imagePath - The path to the image file.
- * @param {string} [format='hex'] - The format of the dominant color. Possible values: 'hex' or 'rgb'.
- * @returns {Promise<string | number[] | null>} A promise that resolves to the dominant color in the specified format, or null if an error occurs.
+ * @param {string} [format='hex'] - The format of the dominant color, it could be hex or rgb.
+ * @returns {Promise<string | number[] | null>} A promise that resolves to the dominant color in the specified format or null if an error occurs.
  */
 export async function detectDominantColor(imagePath: string, format: 'hex' | 'rgb' = 'hex'): Promise<string | number[] | null> {
     try {
